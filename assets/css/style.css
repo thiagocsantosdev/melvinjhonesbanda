@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-image: url(/assets/images/background.png);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+    background-color: rgba(17, 17, 17, 0.9);
+    
+}
+
+header a{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: white;
+}
+
+
+.welcome{
+    background-image: url(/assets/images/upscale.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.new-clip{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.midias{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.shows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.shows ul{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.shows ul li img{
+    width: 240px;
+    transition: 200ms;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.shows ul li img:hover{
+    transform: scale(2);
+    transition: 200ms;
+}
+
+
+.photos{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+
+.photos ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas com tamanho igual */
+    grid-template-rows: auto auto; /* 2 linhas automáticas */
+    gap: 10px; /* Espaço entre os itens */
+    ;
+}
+
+.photos ul li img{
+    width: 200px;
+
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.shop p{
+    font-family: Helvetica;
+    font-weight: 900;
+}
+
+
+footer{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100px;
+   background-color: black;
+}
