@@ -9,7 +9,7 @@ html{
 
 
 body{
-    background-image: url(assets/images/background.png);
+    background-image: url('./assets/images/background.png');
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
@@ -39,7 +39,7 @@ header a{
 
 
 .welcome{
-    background-image: url(assets/images/upscale.jpg);
+    background-image: url('./assets/images/upscale.jpg');
     background-size: cover;
     background-position: top;
     height: 100vh;
